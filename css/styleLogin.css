@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #2a2f44;
+}
+
+form{
+    margin: 8% 35%;
+    padding: 10px 0px;
+    box-shadow: 0 5px 10px 0 rgb(169, 47, 255, .3), 0 7px 15px 0 rgb(2, 137, 209, .20);
+    height: 62vh;
+    border-radius: 25px;
+    display: block;
+    color: rgb(2, 137, 209);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Dancing Script', serif;
+    font-size: 60px;
+    color: #0289d1;
+    font-weight: lighter;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+.gradient-text{
+    background: -webkit-linear-gradient(330deg, #a92fff 0%, #a92fff 25%, #0289d1 50%, #a92fff 75%, #a92fff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+.input,
+.select{
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #0289d1;
+    margin-left: 100px;
+    width: 45%;
+    background: #2a2f44;
+}
+
+.input:focus,
+.input:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.input::placeholder{
+  color: rgba(172, 172, 168, .3);
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.input[type="text"],
+.input[type="password"],
+select{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+option{
+    color: #fff;
+}
+
+.select{
+  width: 50%;
+  margin-left: 100px;
+  color: rgba(172, 172, 168, .3);
+}
+
+.select:focus,
+.select:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-left: 135px;
+    padding: 10px 25px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(310deg, #a92fff,  #0289d1, #a92fff);
+}
+
+.btn:hover,
+.btn:focus{
+     background-image: linear-gradient(30deg, #0289d1, #a92fff, #0289d1);
+     transition: 2.5s;
+}
+
+marquee{
+    font-family: 'Quicksand', sans-serif;
+}
